@@ -42,6 +42,12 @@ ModelImporter:
     100068: Sphere
     100070: Subdivision_Surface
     100072: Sweep
+    100074: Arc
+    100076: Arc_1
+    100078: backgun
+    100080: Light_1
+    100082: Light_2
+    100084: Light_3
     400000: Barrel
     400002: Barrel_1
     400004: Barrel_1_2
@@ -79,6 +85,12 @@ ModelImporter:
     400068: Sphere
     400070: Subdivision_Surface
     400072: Sweep
+    400074: Arc
+    400076: Arc_1
+    400078: backgun
+    400080: Light_1
+    400082: Light_2
+    400084: Light_3
     2300000: Barrel
     2300002: Barrel_1
     2300004: Barrel_1_2
