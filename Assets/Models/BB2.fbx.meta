@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: 4ab32959acc2fed4bb836ff028229ee3
+timeCreated: 1435148413
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Barrel_1
+    100002: Barrel_1_2
+    100004: Barrel_1_3
+    100006: Barrel_1_4
+    100008: Barrel_2
+    100010: Barrel_2_2
+    100012: Barrel_2_3
+    100014: Barrel_2_4
+    100016: Base
+    100018: Base_2
+    100020: Base_3
+    100022: Base_4
+    100024: //RootNode
+    100026: Circle
+    100028: Circle_2
+    100030: Circle_3
+    100032: Circle_4
+    100034: Cube
+    100036: Cube_1
+    100038: Cube_2
+    100040: Cube_3
+    100042: Cube_4
+    100044: Cube_5
+    100046: Frontgun
+    100048: Frontgun_1
+    100050: Frontgun_2
+    100052: Frontgun_3
+    100054: Oil_Tank_1
+    100056: Polygon
+    100058: Polygon_1
+    400000: Barrel_1
+    400002: Barrel_1_2
+    400004: Barrel_1_3
+    400006: Barrel_1_4
+    400008: Barrel_2
+    400010: Barrel_2_2
+    400012: Barrel_2_3
+    400014: Barrel_2_4
+    400016: Base
+    400018: Base_2
+    400020: Base_3
+    400022: Base_4
+    400024: //RootNode
+    400026: Circle
+    400028: Circle_2
+    400030: Circle_3
+    400032: Circle_4
+    400034: Cube
+    400036: Cube_1
+    400038: Cube_2
+    400040: Cube_3
+    400042: Cube_4
+    400044: Cube_5
+    400046: Frontgun
+    400048: Frontgun_1
+    400050: Frontgun_2
+    400052: Frontgun_3
+    400054: Oil_Tank_1
+    400056: Polygon
+    400058: Polygon_1
+    2300000: Barrel_1
+    2300002: Barrel_1_2
+    2300004: Barrel_1_3
+    2300006: Barrel_1_4
+    2300008: Barrel_2
+    2300010: Barrel_2_2
+    2300012: Barrel_2_3
+    2300014: Barrel_2_4
+    2300016: Base
+    2300018: Base_2
+    2300020: Base_3
+    2300022: Base_4
+    2300024: Circle
+    2300026: Circle_2
+    2300028: Circle_3
+    2300030: Circle_4
+    2300032: Cube
+    2300034: Cube_1
+    2300036: Cube_2
+    2300038: Cube_3
+    2300040: Cube_4
+    2300042: Cube_5
+    2300044: Oil_Tank_1
+    2300046: Polygon
+    2300048: Polygon_1
+    3300000: Barrel_1
+    3300002: Barrel_1_2
+    3300004: Barrel_1_3
+    3300006: Barrel_1_4
+    3300008: Barrel_2
+    3300010: Barrel_2_2
+    3300012: Barrel_2_3
+    3300014: Barrel_2_4
+    3300016: Base
+    3300018: Base_2
+    3300020: Base_3
+    3300022: Base_4
+    3300024: Circle
+    3300026: Circle_2
+    3300028: Circle_3
+    3300030: Circle_4
+    3300032: Cube
+    3300034: Cube_1
+    3300036: Cube_2
+    3300038: Cube_3
+    3300040: Cube_4
+    3300042: Cube_5
+    3300044: Oil_Tank_1
+    3300046: Polygon
+    3300048: Polygon_1
+    4300000: Circle
+    4300002: Barrel_2
+    4300004: Barrel_1
+    4300006: Base
+    4300008: Cube_5
+    4300010: Cube_3
+    4300012: Circle_2
+    4300014: Barrel_2_2
+    4300016: Barrel_1_2
+    4300018: Base_2
+    4300020: Circle_3
+    4300022: Barrel_2_3
+    4300024: Barrel_1_3
+    4300026: Base_3
+    4300028: Cube_2
+    4300030: Cube_1
+    4300032: Circle_4
+    4300034: Barrel_2_4
+    4300036: Barrel_1_4
+    4300038: Base_4
+    4300040: Cube_4
+    4300042: Oil_Tank_1
+    4300044: Cube
+    4300046: Polygon_1
+    4300048: Polygon
+    7400000: C4D Animation Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
