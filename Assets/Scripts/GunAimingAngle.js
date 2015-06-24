@@ -1,5 +1,5 @@
 ﻿#pragma strict
-var angle = 0;
+static var angle = 0;
 var maxAngle = 30;
 function Update () {
 	
