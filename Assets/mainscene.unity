@@ -521,7 +521,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -450, y: -200}
+  m_AnchoredPosition: {x: -450, y: -180}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &263079475
@@ -549,7 +549,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Back guns
+  m_Text: Front Guns
 --- !u!222 &263079476
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2676,9 +2676,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a347c6c0132f14e834b9d417d6c325, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabBullet: {fileID: 0}
-  shootForce: 2
-  shootPosition: {fileID: 1750173785}
 --- !u!1 &1886803201
 GameObject:
   m_ObjectHideFlags: 0
@@ -2913,7 +2910,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Back Guns
 --- !u!222 &2058029394
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2934,6 +2931,6 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -450, y: -180}
+  m_AnchoredPosition: {x: -450, y: -200}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
