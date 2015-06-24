@@ -1,8 +1,9 @@
 ﻿// JavaScript Document
 #pragma strict
 var accelerateAmount : float = 0.04;
-var maxSpeed : float = 20;
-var currentSpeed : float = 0;
+
+static var maxSpeed : float = 5;
+static var currentSpeed : float = 0;
 
 function Update () {
 	if(Input.GetKey("f")) {
