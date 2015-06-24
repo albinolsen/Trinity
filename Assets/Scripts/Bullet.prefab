@@ -14,6 +14,8 @@ GameObject:
   - 96: {fileID: 9634506}
   - 54: {fileID: 5465694}
   - 114: {fileID: 11478016}
+  - 114: {fileID: 11488718}
+  - 114: {fileID: 11437288}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -124,6 +126,17 @@ TrailRenderer:
       rgba: 20479
   m_MinVertexDistance: .100000001
   m_Autodestruct: 1
+--- !u!114 &11437288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33061f2108297ff49a45fac26be6c002, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11478016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -137,6 +150,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 179312, guid: 004764cbf96d0a3479d2612b1bacb132, type: 2}
   playerExplosion: {fileID: 179312, guid: 004764cbf96d0a3479d2612b1bacb132, type: 2}
+--- !u!114 &11488718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6315127156586b4e9e895ae0a398264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &13535500
 SphereCollider:
   m_ObjectHideFlags: 1

@@ -1359,48 +1359,6 @@ MonoBehaviour:
   bullet: {fileID: 195886, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
   rateOfFire: .5
   speed: 60
---- !u!1001 &891071887
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 429526, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 37.4587631
-      objectReference: {fileID: 0}
-    - target: {fileID: 429526, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -16.1000004
-      objectReference: {fileID: 0}
-    - target: {fileID: 429526, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -20.832119
-      objectReference: {fileID: 0}
-    - target: {fileID: 429526, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 429526, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 429526, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 429526, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 429526, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &893774874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1819,6 +1777,10 @@ Prefab:
     - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
       propertyPath: m_LocalScale.x
       value: 2059.46802
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
+      propertyPath: m_TagString
+      value: Water
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
@@ -2951,6 +2913,22 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
+--- !u!1 &1958605012 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
+  m_PrefabInternal: {fileID: 1152451849}
+--- !u!65 &1958605017
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1958605012}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.99999928, y: 0, z: 1.99999881}
+  m_Center: {x: -3.27825546e-07, y: 0, z: 3.27825546e-07}
 --- !u!1 &1986239388
 GameObject:
   m_ObjectHideFlags: 0
