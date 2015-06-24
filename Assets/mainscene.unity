@@ -701,9 +701,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 273395651}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bae44ccaf540a684d98b2afaa0914374, type: 3}
+  m_Script: {fileID: 11500000, guid: c9ec06d78fddae149b3e5d10fde262ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Text: {fileID: 2058029393}
 --- !u!114 &273395659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1157,7 +1158,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 518003616}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc94e5ab1bdf0604bb4a7905780daaac, type: 3}
+  m_Script: {fileID: 11500000, guid: 94f6d0a8fb34e364f96d9c8ceaf9dd7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxAngle: 30

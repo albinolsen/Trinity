@@ -25,6 +25,7 @@ GameObject:
   - 4: {fileID: 404862}
   - 198: {fileID: 19818008}
   - 199: {fileID: 19973740}
+  - 114: {fileID: 11451616}
   m_Layer: 0
   m_Name: ParticleSystem
   m_TagString: Untagged
@@ -57,6 +58,17 @@ Transform:
   - {fileID: 404862}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &11451616
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6866452082986c49863b17c2e982128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!198 &19818008
 ParticleSystem:
   m_ObjectHideFlags: 1
