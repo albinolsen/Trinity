@@ -624,7 +624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c62f06ef8266b81438e9d1066a4225ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 15
   speed: 100
   boostSpeed: 5
 --- !u!143 &273395654
@@ -673,8 +673,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d07650119ec1a2f4ca7ccf643e9242e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  accelerateAmount: .0799999982
-  maxSpeed: 15
+  accelerateAmount: .0500000007
+  maxSpeed: 5
   currentSpeed: 0
 --- !u!114 &273395657
 MonoBehaviour:
