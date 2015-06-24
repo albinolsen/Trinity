@@ -9,7 +9,7 @@ if(Input.GetKey("w")) {
 		angle += 1;
  }}
 if(Input.GetKey("s")){
-	if(angle > -5){
+	if(angle > 0){
 		transform.Rotate(0,0,1);
 		angle -= 1;
 	}
