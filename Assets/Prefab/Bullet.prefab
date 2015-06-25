@@ -16,6 +16,7 @@ GameObject:
   - 114: {fileID: 11419380}
   - 114: {fileID: 11494964}
   - 114: {fileID: 11486532}
+  - 122: {fileID: 12210006}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -105,7 +106,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Time: .189999998
+  m_Time: .0900000036
   m_StartWidth: .300000012
   m_EndWidth: .100000001
   m_Colors:
@@ -161,6 +162,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33061f2108297ff49a45fac26be6c002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!122 &12210006
+Halo:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195886}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278255590
+  m_Size: .300000012
 --- !u!135 &13537570
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -192,6 +204,22 @@ Prefab:
       propertyPath: playerExplosion
       value: 
       objectReference: {fileID: 116658, guid: 081f4b5663bb5af4fac531af265ed0d3, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Time
+      value: .0900000036
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Color.rgba
+      value: 4278255590
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Size
+      value: .300000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 195886}

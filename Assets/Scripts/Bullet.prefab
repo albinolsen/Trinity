@@ -106,7 +106,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Time: .189999998
+  m_Time: 9.00000003e-08
   m_StartWidth: .300000012
   m_EndWidth: .100000001
   m_Colors:
@@ -212,6 +212,14 @@ Prefab:
       propertyPath: playerExplosion
       value: 
       objectReference: {fileID: 179312, guid: 004764cbf96d0a3479d2612b1bacb132, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Intensity
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Time
+      value: 9.00000003e-08
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 132328}
