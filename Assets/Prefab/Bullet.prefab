@@ -17,6 +17,7 @@ GameObject:
   - 114: {fileID: 11494964}
   - 114: {fileID: 11486532}
   - 122: {fileID: 12210006}
+  - 114: {fileID: 11420750}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -74,7 +75,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 195886}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1444
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -136,6 +137,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a6315127156586b4e9e895ae0a398264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11420750
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18bec17f7dd79504fba1b6a1123c611e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &11486532
@@ -219,6 +231,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Mass
+      value: 1444
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
