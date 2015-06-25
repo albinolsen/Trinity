@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 36f83ff05f72b4e42aa6b0adefa034b1
+timeCreated: 1435256811
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Aim
+    100002: Aim_2
+    100004: Aim_3
+    100006: Aim_4
+    100008: backgun
+    100010: backgun_1
+    100012: backgun_2
+    100014: backgun_3
+    100016: Barrel
+    100018: Barrel_2
+    100020: Barrel_2_2
+    100022: Barrel_2_3
+    100024: Barrel_2_4
+    100026: Barrel_2_5
+    100028: Barrel_3
+    100030: Barrel_4
+    100032: Base
+    100034: Base_2
+    100036: Base_3
+    100038: Base_4
+    100040: //RootNode
+    100042: Circle
+    100044: Circle_2
+    100046: Circle_3
+    100048: Circle_4
+    100050: Cube
+    100052: Cube_1
+    100054: Cube_2
+    100056: Cube_3
+    100058: Cube_4
+    100060: Cube_5
+    100062: Oil_Tank_1
+    100064: Polygon
+    100066: Polygon_1
+    100068: Turn
+    100070: Turn_2
+    100072: Turn_3
+    100074: Turn_4
+    400000: Aim
+    400002: Aim_2
+    400004: Aim_3
+    400006: Aim_4
+    400008: backgun
+    400010: backgun_1
+    400012: backgun_2
+    400014: backgun_3
+    400016: Barrel
+    400018: Barrel_2
+    400020: Barrel_2_2
+    400022: Barrel_2_3
+    400024: Barrel_2_4
+    400026: Barrel_2_5
+    400028: Barrel_3
+    400030: Barrel_4
+    400032: Base
+    400034: Base_2
+    400036: Base_3
+    400038: Base_4
+    400040: //RootNode
+    400042: Circle
+    400044: Circle_2
+    400046: Circle_3
+    400048: Circle_4
+    400050: Cube
+    400052: Cube_1
+    400054: Cube_2
+    400056: Cube_3
+    400058: Cube_4
+    400060: Cube_5
+    400062: Oil_Tank_1
+    400064: Polygon
+    400066: Polygon_1
+    400068: Turn
+    400070: Turn_2
+    400072: Turn_3
+    400074: Turn_4
+    2300000: Barrel
+    2300002: Barrel_2
+    2300004: Barrel_2_2
+    2300006: Barrel_2_3
+    2300008: Barrel_2_4
+    2300010: Barrel_2_5
+    2300012: Barrel_3
+    2300014: Barrel_4
+    2300016: Base
+    2300018: Base_2
+    2300020: Base_3
+    2300022: Base_4
+    2300024: Circle
+    2300026: Circle_2
+    2300028: Circle_3
+    2300030: Circle_4
+    2300032: Cube
+    2300034: Cube_1
+    2300036: Cube_2
+    2300038: Cube_3
+    2300040: Cube_4
+    2300042: Cube_5
+    2300044: Oil_Tank_1
+    2300046: Polygon
+    2300048: Polygon_1
+    3300000: Barrel
+    3300002: Barrel_2
+    3300004: Barrel_2_2
+    3300006: Barrel_2_3
+    3300008: Barrel_2_4
+    3300010: Barrel_2_5
+    3300012: Barrel_3
+    3300014: Barrel_4
+    3300016: Base
+    3300018: Base_2
+    3300020: Base_3
+    3300022: Base_4
+    3300024: Circle
+    3300026: Circle_2
+    3300028: Circle_3
+    3300030: Circle_4
+    3300032: Cube
+    3300034: Cube_1
+    3300036: Cube_2
+    3300038: Cube_3
+    3300040: Cube_4
+    3300042: Cube_5
+    3300044: Oil_Tank_1
+    3300046: Polygon
+    3300048: Polygon_1
+    4300000: Base
+    4300002: Barrel_2
+    4300004: Barrel
+    4300006: Circle
+    4300008: Base_2
+    4300010: Barrel_2_2
+    4300012: Barrel_2_3
+    4300014: Circle_2
+    4300016: Base_3
+    4300018: Barrel_2_4
+    4300020: Barrel_3
+    4300022: Circle_3
+    4300024: Base_4
+    4300026: Barrel_2_5
+    4300028: Barrel_4
+    4300030: Circle_4
+    4300032: Cube_5
+    4300034: Cube_3
+    4300036: Cube_2
+    4300038: Cube_1
+    4300040: Cube_4
+    4300042: Oil_Tank_1
+    4300044: Cube
+    4300046: Polygon_1
+    4300048: Polygon
+    7400000: C4D Animation Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
