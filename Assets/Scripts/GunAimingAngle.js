@@ -1,14 +1,15 @@
 ﻿#pragma strict
 var angle = 0;
+var maxAngle = 30;
 function Update () {
 	
 if(Input.GetKey("w")) {
-	if(angle < 30){
+	if(angle < maxAngle){
 		transform.Rotate(0,0,-1);
 		angle += 1;
  }}
 if(Input.GetKey("s")){
-	if(angle > 0){
+	if(angle > -5){
 		transform.Rotate(0,0,1);
 		angle -= 1;
 	}

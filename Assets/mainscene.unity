@@ -605,8 +605,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d07650119ec1a2f4ca7ccf643e9242e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  accelerateAmount: .0399999991
-  maxSpeed: 20
+  accelerateAmount: .0799999982
+  maxSpeed: 15
   currentSpeed: 0
 --- !u!1 &298230577
 GameObject:
@@ -682,6 +682,7 @@ GameObject:
   - 4: {fileID: 384964962}
   - 33: {fileID: 384964964}
   - 23: {fileID: 384964963}
+  - 114: {fileID: 384964965}
   m_Layer: 0
   m_Name: Barrel
   m_TagString: Untagged
@@ -735,6 +736,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 384964961}
   m_Mesh: {fileID: 4300008, guid: ac9353a31e2064b4ebcd845046e2c9a9, type: 3}
+--- !u!114 &384964965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 384964961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449dee27871c4b74392f0e622d26906b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 195886, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
+  rateOfFire: .5
+  speed: 20
 --- !u!1001 &399384245
 Prefab:
   m_ObjectHideFlags: 0
@@ -923,6 +938,7 @@ GameObject:
   - 4: {fileID: 491151752}
   - 33: {fileID: 491151754}
   - 23: {fileID: 491151753}
+  - 114: {fileID: 491151755}
   m_Layer: 0
   m_Name: Barrel_1_2
   m_TagString: Untagged
@@ -976,6 +992,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 491151751}
   m_Mesh: {fileID: 4300016, guid: ac9353a31e2064b4ebcd845046e2c9a9, type: 3}
+--- !u!114 &491151755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 491151751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449dee27871c4b74392f0e622d26906b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 195886, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
+  rateOfFire: .5
+  speed: 20
 --- !u!1 &518003616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1148,6 +1178,7 @@ GameObject:
   - 4: {fileID: 886949904}
   - 33: {fileID: 886949906}
   - 23: {fileID: 886949905}
+  - 114: {fileID: 886949907}
   m_Layer: 0
   m_Name: Barrel_1
   m_TagString: Untagged
@@ -1201,6 +1232,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 886949903}
   m_Mesh: {fileID: 4300006, guid: ac9353a31e2064b4ebcd845046e2c9a9, type: 3}
+--- !u!114 &886949907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 886949903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449dee27871c4b74392f0e622d26906b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 195886, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
+  rateOfFire: .5
+  speed: 20
 --- !u!1 &893774874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,6 +1256,7 @@ GameObject:
   - 4: {fileID: 893774875}
   - 33: {fileID: 893774877}
   - 23: {fileID: 893774876}
+  - 114: {fileID: 893774878}
   m_Layer: 0
   m_Name: Barrel_2_3
   m_TagString: Untagged
@@ -1264,6 +1310,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 893774874}
   m_Mesh: {fileID: 4300018, guid: ac9353a31e2064b4ebcd845046e2c9a9, type: 3}
+--- !u!114 &893774878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 893774874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449dee27871c4b74392f0e622d26906b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 195886, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
+  rateOfFire: .5
+  speed: 20
 --- !u!1 &949356641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2060,6 +2120,7 @@ GameObject:
   - 4: {fileID: 1524831696}
   - 33: {fileID: 1524831698}
   - 23: {fileID: 1524831697}
+  - 114: {fileID: 1524831699}
   m_Layer: 0
   m_Name: Barrel_2
   m_TagString: Untagged
@@ -2113,6 +2174,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1524831695}
   m_Mesh: {fileID: 4300004, guid: ac9353a31e2064b4ebcd845046e2c9a9, type: 3}
+--- !u!114 &1524831699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1524831695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449dee27871c4b74392f0e622d26906b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 195886, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
+  rateOfFire: .5
+  speed: 20
 --- !u!1 &1546525505
 GameObject:
   m_ObjectHideFlags: 0
@@ -2265,6 +2340,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1750173785}
   - 114: {fileID: 1750173786}
+  - 114: {fileID: 1750173787}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -2299,6 +2375,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   angle: 0
+  maxAngle: 30
+--- !u!114 &1750173787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750173784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15a347c6c0132f14e834b9d417d6c325, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabBullet: {fileID: 0}
+  shootForce: 2
+  shootPosition: {fileID: 1750173785}
 --- !u!1 &1886803201
 GameObject:
   m_ObjectHideFlags: 0
@@ -2336,6 +2427,7 @@ GameObject:
   - 4: {fileID: 1921338402}
   - 33: {fileID: 1921338404}
   - 23: {fileID: 1921338403}
+  - 114: {fileID: 1921338405}
   m_Layer: 0
   m_Name: Barrel_2_2
   m_TagString: Untagged
@@ -2389,6 +2481,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1921338401}
   m_Mesh: {fileID: 4300014, guid: ac9353a31e2064b4ebcd845046e2c9a9, type: 3}
+--- !u!114 &1921338405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1921338401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449dee27871c4b74392f0e622d26906b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 195886, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
+  rateOfFire: .5
+  speed: 20
 --- !u!1 &1931472140
 GameObject:
   m_ObjectHideFlags: 0
