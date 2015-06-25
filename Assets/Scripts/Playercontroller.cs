@@ -29,9 +29,9 @@ public class Playercontroller : MonoBehaviour {
 		targetRotation = Quaternion.LookRotation (mousePos - new Vector3(transform.position.x,0,transform.position.z));
 		transform.eulerAngles = Vector3.up * Mathf.MoveTowardsAngle (transform.eulerAngles.y, targetRotation.eulerAngles.y, rotationSpeed * Time.deltaTime);
 
-		Vector3 input = new Vector3(Input.GetAxisRaw("Horizontal"),0,Input.GetAxisRaw("Vertical"));		
-		Vector3 motion = input;
+		//Vector3 input = new Vector3(Input.GetAxisRaw("Horizontal"),0,Input.GetAxisRaw("Vertical"));		
+		//Vector3 motion = input;
 		
-		controller.Move (motion * Time.deltaTime);	
+		//controller.Move (motion * Time.deltaTime);	
 	}
 }
