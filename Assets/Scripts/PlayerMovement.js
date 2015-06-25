@@ -11,7 +11,7 @@ function Update () {
 	 	}
 	 }
 	if(Input.GetKey("v")){
-		if(currentSpeed > 0){
+		if(currentSpeed > -(maxSpeed/2)){
 			currentSpeed -= accelerateAmount;
 		}	
 	}

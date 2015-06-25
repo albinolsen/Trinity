@@ -2937,7 +2937,7 @@ TrailRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 75c88d5815305de418c69f8a28d5acd3, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -2951,8 +2951,8 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Time: .200000003
-  m_StartWidth: 1
+  m_Time: .189999998
+  m_StartWidth: .300000012
   m_EndWidth: .100000001
   m_Colors:
     m_Color[0]:
