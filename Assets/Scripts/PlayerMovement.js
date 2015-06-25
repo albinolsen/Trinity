@@ -1,14 +1,20 @@
 ﻿// JavaScript Document
 #pragma strict
-
-var forwardRate : float = 10;
-var turnRate : float = 2;
+var accelerateAmount : float = 0.04;
+var maxSpeed : float = 20;
+var currentSpeed : float = 0;
 
 function Update () {
-
-// tank's forward speed in action
-var forwardMoveAmount = Input.GetAxis("Vertical") * forwardRate;
-
-transform.position += transform.forward * forwardMoveAmount * Time.deltaTime;
-
+	if(Input.GetKey("f")) {
+		if(currentSpeed < maxSpeed){
+			currentSpeed += accelerateAmount;
+	 	}
+	 }
+	if(Input.GetKey("v")){
+		if(currentSpeed > 0){
+			currentSpeed -= accelerateAmount;
+		}	
+	}
+	Debug.Log(currentSpeed);
+	transform.position += transform.forward * currentSpeed * Time.deltaTime;
 }

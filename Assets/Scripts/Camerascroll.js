@@ -1,5 +1,5 @@
-﻿ var minFov: float = 30f;
- var maxFov: float = 90f;
+ var minFov: float = 50f;
+ var maxFov: float = 140f;
  var sensitivity: float = 10f;
  
  function Update () {
