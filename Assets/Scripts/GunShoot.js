@@ -12,7 +12,7 @@ function Update () {
 	if(Input.GetButton("Fire1") && Time.time > fireDelay){
 	fireDelay = Time.time + rateOfFire;
 		var clone : GameObject = Instantiate(bullet, transform.position, transform.rotation);
-		clone.GetComponent.<Rigidbody>().velocity = transform.TransformDirection(Vector3(Random.Range(-2.0, 2.0), speed, Random.Range(-2.0, 2.0)));
+		clone.GetComponent.<Rigidbody>().velocity = transform.TransformDirection(Vector3(Random.Range(-1.0, 1.0),speed, Random.Range(-5.0, 5.0)));
 		Physics.IgnoreCollision(clone.GetComponent.<Collider>(), transform.root.GetComponent.<Collider>());
 	}
 
