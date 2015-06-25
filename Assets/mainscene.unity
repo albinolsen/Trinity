@@ -801,7 +801,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   accelerateAmount: .0500000007
-  SpeedStick: {fileID: 0}
 --- !u!114 &273395657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -984,6 +983,7 @@ MonoBehaviour:
   bullet: {fileID: 195886, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
   rateOfFire: .5
   speed: 60
+  laser: {fileID: 0}
 --- !u!1001 &399384245
 Prefab:
   m_ObjectHideFlags: 0
@@ -1241,6 +1241,7 @@ MonoBehaviour:
   bullet: {fileID: 195886, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
   rateOfFire: .5
   speed: 60
+  laser: {fileID: 0}
 --- !u!1 &518003616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,6 +1545,7 @@ MonoBehaviour:
   bullet: {fileID: 195886, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
   rateOfFire: .5
   speed: 60
+  laser: {fileID: 0}
 --- !u!1 &893774874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,6 +1625,7 @@ MonoBehaviour:
   bullet: {fileID: 195886, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
   rateOfFire: .5
   speed: 60
+  laser: {fileID: 0}
 --- !u!1 &949356641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2809,6 +2812,7 @@ MonoBehaviour:
   bullet: {fileID: 195886, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
   rateOfFire: .5
   speed: 60
+  laser: {fileID: 0}
 --- !u!1 &1546525505
 GameObject:
   m_ObjectHideFlags: 0
@@ -3189,6 +3193,7 @@ MonoBehaviour:
   bullet: {fileID: 195886, guid: 6b712126789f55f4faa597f7a4d62218, type: 2}
   rateOfFire: .5
   speed: 60
+  laser: {fileID: 0}
 --- !u!1 &1931472140
 GameObject:
   m_ObjectHideFlags: 0
