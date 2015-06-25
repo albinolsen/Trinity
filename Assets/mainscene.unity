@@ -1970,15 +1970,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 128746, guid: 98242adca19f02549a1dbce3fce263b1, type: 2}
       propertyPath: m_TagString
-      value: Player
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 140332, guid: 98242adca19f02549a1dbce3fce263b1, type: 2}
       propertyPath: m_TagString
-      value: Player
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 145260, guid: 98242adca19f02549a1dbce3fce263b1, type: 2}
       propertyPath: m_TagString
-      value: Player
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 98242adca19f02549a1dbce3fce263b1, type: 2}
