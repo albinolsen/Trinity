@@ -5,8 +5,8 @@ function OnTriggerEnter(other : Collider)
 {
 	if (other.tag == "Water")
     {
-		Instantiate(explosion, transform.position, transform.rotation);
-		Debug.Log("WE'RE HIT COMMANDER!");
+		Instantiate(explosion, transform.position, Quaternion.identity);
+		Destroy (gameObject);
     }
     
     

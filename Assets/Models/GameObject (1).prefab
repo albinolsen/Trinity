@@ -1,32 +1,16 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &155432
+--- !u!1 &125102
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 479492}
-  m_Layer: 0
-  m_Name: GameObject (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &179312
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 404862}
-  - 198: {fileID: 19818008}
-  - 199: {fileID: 19973740}
-  - 114: {fileID: 11451616}
-  - 114: {fileID: 11486306}
+  - 4: {fileID: 482640}
+  - 198: {fileID: 19837058}
+  - 199: {fileID: 19945148}
+  - 114: {fileID: 11414260}
   m_Layer: 0
   m_Name: ParticleSystem
   m_TagString: Untagged
@@ -34,61 +18,63 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &404862
+--- !u!1 &156708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 457322}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &457322
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 179312}
+  m_GameObject: {fileID: 156708}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 128.133591, y: 157.296997, z: 130.536346}
-  m_LocalScale: {x: .400000006, y: .400000006, z: .400000006}
-  m_Children: []
-  m_Father: {fileID: 479492}
-  m_RootOrder: 0
---- !u!4 &479492
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 155432}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.7134895, y: -61.2970009, z: 6.65851593}
+  m_LocalPosition: {x: 21.7134895, y: 8.52999973, z: 6.65851593}
   m_LocalScale: {x: 9.99999975e-05, y: 9.99999975e-05, z: .00100000005}
   m_Children:
-  - {fileID: 404862}
+  - {fileID: 482640}
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11451616
+--- !u!4 &482640
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125102}
+  m_LocalRotation: {x: -.702720404, y: 0, z: 0, w: .711466134}
+  m_LocalPosition: {x: 128.135681, y: 157.299042, z: 130.536545}
+  m_LocalScale: {x: .400000006, y: .400000006, z: .400000006}
+  m_Children: []
+  m_Father: {fileID: 457322}
+  m_RootOrder: 0
+--- !u!114 &11414260
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 179312}
+  m_GameObject: {fileID: 125102}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b6866452082986c49863b17c2e982128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11486306
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 179312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4dca5a829507c54ca8979e77ef605b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosion: {fileID: 0}
-  playerExplosion: {fileID: 0}
---- !u!198 &19818008
+--- !u!198 &19837058
 ParticleSystem:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 179312}
+  m_GameObject: {fileID: 125102}
   lengthInSec: .349999994
   startDelay: 0
   speed: 1
@@ -100,7 +86,7 @@ ParticleSystem:
   InitialModule:
     enabled: 1
     startLifetime:
-      scalar: .0500000007
+      scalar: 2
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -133,7 +119,7 @@ ParticleSystem:
         m_PostInfinity: 2
       minMaxState: 0
     startSpeed:
-      scalar: 15
+      scalar: 2
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -315,13 +301,13 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 3
-    gravityModifier: .899999976
+    gravityModifier: .200000003
     inheritVelocity: 0
     maxNumParticles: 1000
   ShapeModule:
     serializedVersion: 2
     enabled: 1
-    type: 12
+    type: 4
     radius: 1
     angle: 25
     length: 5
@@ -1126,17 +1112,17 @@ ParticleSystem:
     subEmitterCollision1: {fileID: 0}
     subEmitterDeath: {fileID: 0}
     subEmitterDeath1: {fileID: 0}
---- !u!199 &19973740
+--- !u!199 &19945148
 ParticleSystemRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 179312}
+  m_GameObject: {fileID: 125102}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c55afdc4a8a3b4890b07cc7d176510bb, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1170,46 +1156,10 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
-      propertyPath: m_LocalScale.x
-      value: 9.99999975e-05
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalScale.y
-      value: 9.99999975e-05
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalScale.z
-      value: .00100000005
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: .0500000007
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: lengthInSec
-      value: .349999994
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: ShapeModule.randomDirection
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: InitialModule.gravityModifier
-      value: .899999976
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: UVModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: moveWithTransform
-      value: 1
+      propertyPath: EmissionModule.rate.scalar
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 155432}
+  m_RootGameObject: {fileID: 156708}
   m_IsPrefabParent: 1
