@@ -8,6 +8,12 @@ function OnTriggerEnter(other : Collider)
 		Instantiate(explosion, transform.position, Quaternion.identity);
 		Destroy (gameObject);
     }
+    if (other.tag == "Player")
+    {
+		Instantiate(playerExplosion, transform.position, Quaternion.identity);
+		Destroy (gameObject);
+		Debug.Log("SHIP HIT GOOD SIR");
+    }
     
     
 

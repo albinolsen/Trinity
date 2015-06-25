@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosion: {fileID: 116658, guid: 081f4b5663bb5af4fac531af265ed0d3, type: 2}
-  playerExplosion: {fileID: 116658, guid: 081f4b5663bb5af4fac531af265ed0d3, type: 2}
+  playerExplosion: {fileID: 100000, guid: ebd39b50df8574fb88f15e5d023ef3a7, type: 2}
 --- !u!114 &11494964
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -215,7 +215,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: playerExplosion
       value: 
-      objectReference: {fileID: 116658, guid: 081f4b5663bb5af4fac531af265ed0d3, type: 2}
+      objectReference: {fileID: 100000, guid: ebd39b50df8574fb88f15e5d023ef3a7, type: 2}
     - target: {fileID: 0}
       propertyPath: m_Time
       value: .0900000036
