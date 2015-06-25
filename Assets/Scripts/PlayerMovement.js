@@ -15,6 +15,5 @@ function Update () {
 			currentSpeed -= accelerateAmount;
 		}	
 	}
-	Debug.Log(currentSpeed);
 	transform.position += transform.forward * currentSpeed * Time.deltaTime;
 }
