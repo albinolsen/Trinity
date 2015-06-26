@@ -1,10 +1,14 @@
-﻿#pragma strict
+#pragma strict
 var bullet : GameObject;
 var rateOfFire : float = 0.5;
 internal var fireDelay : float;
 var speed : float = 200;
+var laser : GameObject;
 
 function Start () {
+var createlaser : GameObject = Instantiate(laser, transform.position, transform.rotation);
+ createlaser.transform.parent = gameObject.transform;
+
 
 }
 
